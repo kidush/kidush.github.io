@@ -1,13 +1,33 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+.container {
+  min-height: 100vh;
+  display: flex;
+}
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+.site-menu-aside {
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+
+  // Positioning context for the mobile navigation icon
+  flex: 1 0 300px;
+  flex-direction: column;
+
+  .avatar {
+    margin: 10px auto;
+    width: 70%;
+    img {
+      border-radius: 100%;
+    } 
+  }
+
+  text-align: center;
+}
+
+.site-content {
+  flex: 1 1 auto;
+  overflow: auto;
 }
 
 .site-title {
@@ -25,7 +45,6 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
 
     .menu-icon {
