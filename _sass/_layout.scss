@@ -7,11 +7,14 @@
 }
 
 .site-menu-aside {
+  @include media-query($on-palm) {
+    display: none;
+  }
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
 
   // Positioning context for the mobile navigation icon
-  flex: 1 0 300px;
+  flex: 0 0 300px;
   flex-direction: column;
 
   .avatar {
@@ -19,7 +22,12 @@
     width: 70%;
     img {
       border-radius: 100%;
-    } 
+    }
+  }
+
+  .my-position {
+      display: flex;
+      flex-direction: column
   }
 
   text-align: center;
@@ -210,7 +218,8 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 40px;
+    font-family: 'Arvo', serif;
 }
 
 
@@ -224,6 +233,7 @@
 
 .post-title {
     font-size: 42px;
+    font-family: 'Arvo', serif;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -234,6 +244,10 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    font-family: 'Arvo', serif;
+    p {
+        font-size: 22px;
+    }
 
     h2 {
         font-size: 32px;
