@@ -1,23 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Thiago F. Lins
-subtitle: Software Developer
-avatar: /images/avatar.jpg
-email: oi@thiagoflins.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+# description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+# cover: assets/images/radhakrishna.jpg
+# logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: "http://thiagoflins.com" # the base hostname & protocol for your site
-twitter_username: thiago_evan
-github_username:  kidush
+paginate: 5 # The number of posts to show per page on your homepage
+
+# Social
+facebook: thiagoevan
+twitter: thiago_evan
+github:  kidush
+
+#Additional Pages
+about: about
+
+permalink: /:title
+
+# Google Analytics
+analytics_id: ""
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+
+# Settings for rake task
+safe: False
+lsi: False
+username: kidush #github username
+repo: hanuman #github repository
+branch: master #branch
+relative_source: ../hanuman/ #source directory
+destination: ../hanuman-pages/ #destination directory
+production_url:  http://thiagoflins.com/
+source_url:  https://github.com/kidush/hanuman #source repository url
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
