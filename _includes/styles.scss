@@ -26,7 +26,7 @@ $theme-color: #59488b;
 $rs: 16px;
 
 $font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
-$font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
+$font-sans: "Quicksand", "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -732,5 +732,13 @@ body > figure > figcaption > header > h2 {
     color: #fff;
     &:active, &:visited {
         color: #fff;
+    }
+}
+
+// Custom
+
+.title-home-link {
+    &:active,&:visited {
+        color: #fff
     }
 }

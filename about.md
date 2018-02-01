@@ -1,32 +1,25 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-<amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/sports"></amp-img>
+<amp-img width="600" height="400" layout="responsive" src="../{{ site.imagecover }}"></amp-img>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac augue libero.
-Fusce ac tempor dolor. Ut est dui, gravida a consequat aliquet, fermentum
-sodales risus. Suspendisse eu arcu id mi ornare facilisis non id nisl. Maecenas
-nec congue arcu, non semper neque. Proin mollis nisl diam, eu ultrices diam
-facilisis et. Integer fringilla lorem quis semper venenatis.
+I'm a Full Stack Developer despite the fact that I like to work much more as a Back-end Developer 
+than a Front-end Developer. 
 
-Aliquam vestibulum purus enim. Sed rhoncus interdum erat id consequat. Nulla
-cursus venenatis massa, quis convallis lacus condimentum vel. Etiam mollis,
-orci ac pharetra commodo, diam lectus hendrerit eros, ac elementum magna augue
-sed tellus. Maecenas molestie, nisi ut sodales scelerisque, purus neque
-imperdiet dui, mollis elementum sem augue vel ipsum. Nulla lacinia arcu at quam
-lobortis, vitae interdum tellus fermentum. Cum sociis natoque penatibus et
-magnis dis parturient montes, nascetur ridiculus mus. Fusce sodales semper erat,
-eu fringilla ligula vulputate id. Maecenas quis libero pellentesque lacus
-egestas vehicula sit amet et neque. Nulla nec facilisis sem. Pellentesque rutrum
-elementum molestie. Quisque eget dui ac quam placerat dictum. Suspendisse quis
-ante placerat, efficitur enim ut, commodo tortor. Etiam consequat, eros quis
-consequat congue, augue mauris molestie libero, sed iaculis lectus enim eu magna.
+I'm a Father of two kids and husband of a beautiful wife. Sometimes I try to be a musician and
+I like to play bass in the most of the time that I'm playing in my church's band. Sometimes I try to sing as well LOL. 
+ 
+Well, let's keep going... I'm a Developer for over 5 years now and since I was a kid I've always been passionate 
+about everything in technology even more when technologies were related to video games.
+So, I think it guides my career to get this far. 
 
-Etiam sapien dolor, mattis vel feugiat nec, egestas eget risus. Lorem ipsum
-dolor sit amet, consectetur adipiscing elit. Aenean aliquam massa a est porta
- vehicula. Cras eu gravida massa. Integer non sem ac mi ultrices posuere a
- pretium tortor. Mauris vitae varius sem. Praesent faucibus nec felis et dictum.
- Vestibulum lorem velit, laoreet nec vestibulum in, varius nec enim.
+I started my career as a PHP Developer and I worked with it for over three years, after that I've felt in love with Ruby and Ruby on Rails. 
+Then, I've been working a lot with Ruby ever since and I can say it is my favorite language. 
+Despite the fact that I'm dealing with Back-end stuff in the most of the time 
+I really like to work with Javascript. I also have a experience with Devops and Sysadmin stuff.
+
+
+
