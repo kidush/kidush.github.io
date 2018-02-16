@@ -3,7 +3,7 @@ layout: post
 title: "Um “novo” editor para um novo início de ano"
 date: 2018-01-17 21:59:26 -0300
 category: environment,emacs,vim,from-medium
-published: false
+published: true
 ---
 
 *****
@@ -59,6 +59,7 @@ pra quem ta começando com o **vim.**
 
 Acessando o evil-tutor. Mais abaixo irei falar mais de alguns atalhos.
 
+    SPC - h - T
 
 #### Os Pilares Principais do Spacemacs
 
@@ -119,7 +120,7 @@ só ir no nosso arquivo dotfile **~/.spacemacs.**
 
     SPC - f - e - d
 
-![](https://cdn-images-1.medium.com/max/1600/1*lb0PLY7FuhStXfRupiLyxw.png)
+<img src="https://cdn-images-1.medium.com/max/1600/1*lb0PLY7FuhStXfRupiLyxw.png" width="700" />
 <span class="figcaption_hack">.spacemacs file</span>
 
 > Ele é um arquivo lisp, mas não se assuste é fácil de editar e entender, o
@@ -145,30 +146,37 @@ só ir no nosso arquivo dotfile **~/.spacemacs.**
 Ele já vem com uma lista de temas pré-instalados, para acessar a lista só
 digitar o seguinte atalho.
 
+    SPC - T - s
 
 Mas como falei acima, existem diversos layers criados pela comunidade e um legal
 que encontrei recentemente foi o **themes-megapack.**
 
 para instá-lo basta adicioná-lo ao seu **~/.spacemacs**
 
+    SPC - f - e - d
 
 Ao abrir vá até o seu dotspacemacs-configuration-layers. Na imagem abaixo você
 verá no final o **themes-megapack.**
 
+<img src="https://cdn-images-1.medium.com/max/800/1*QIOj_tasddZxRIdbI0EsUA.png" />
 <span class="figcaption_hack">dotspacemacs-configuration-layers. Alguns dos layers que tenho instalado</span>
 
 Após isso você precisará recarregar o editor, para ele instalar os pacotes.
 
+    SPC - f - e - R
 
 Quando o processo terminar o spacemacs precisará ser reiniciado.
 
+    SPC - q - R
 
 Assim que você abrir a lista de temas.
 
+    SPC - T - s
 
 Você verá que novos temas foram instalados. Hoje estou utilizando o spacegray
 como na imagem logo abaixo.
 
+<img src="https://cdn-images-1.medium.com/max/800/1*-OY3PEDcA0bR-mnIqf5h7Q.png" />
 <span class="figcaption_hack">org-mode com o tema do spacegray.</span>
 
 *****
@@ -184,7 +192,9 @@ comando no sistema operacional.
 
 Abrindo o terminal:
 
+    SPC - '
 
+<img src="https://cdn-images-1.medium.com/max/800/1*srpwclssakkLWTTJ6vjPJw.png" /><br />
 <span class="figcaption_hack">terminal dentro do spacemacs</span>
 
 ### Finalizando…
@@ -208,6 +218,6 @@ com este editor e irei postando as atualizações por aqui. Até mais pessoal.
 * [Environment](https://medium.com/tag/environment?source=post)
 * [Vim](https://medium.com/tag/vim?source=post)
 
-By clapping more or less, you can signal to us which stories really stand out.
+Artigo importado do Medium.
 
-### [Thiago Ferreira](https://medium.com/@thiagoflins)
+### [Medium - Thiago Ferreira](https://medium.com/@thiagoflins)
